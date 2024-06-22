@@ -9,8 +9,9 @@ public class Medico {
     /**
      * Default constructor
      */
-    public Medico() {
+    public Medico(nombre: String, apellido:String, especialidad: EspecialidadMedica, iDMedico: Integer) {
     }
+    
 
     /**
      * 
@@ -35,8 +36,4 @@ public class Medico {
     /**
      * 
      */
-    public void <constructor>+Medico(nombre: String, apellido:String, especialidad: EspecialidadMedica, iDMedico: Integer)() {
-        // TODO implement here
-    }
-
 }
